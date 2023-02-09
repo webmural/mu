@@ -1,11 +1,11 @@
 ::selection {
   background: indigo;
-  color: salmon;
+  color: #ee1;
 }
 
 :root {
-  color: purple;
-  background-color: seashell;
+  color: indigo;
+  background-color: #bae;
 }
 
 :any-link {
@@ -13,7 +13,7 @@
 }
 
 :focus {
-  outline-color: rebeccapurple;
+  outline-color: indigo;
   text-shadow: 1vw 2vh 1em darkviolet;
 }
 
@@ -22,14 +22,7 @@
   text-decoration-color: darkmagenta;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    background-color: thistle;
-  }
-}
-
-@media (prefers-contrast: less) {
-  :root {
-    background-color: #bae;
-  }
+mark {
+  background-color: #ee1;
+  color: indigo;
 }
